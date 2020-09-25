@@ -35,11 +35,9 @@
 
 </br>
 <h3>Contributors : </h3>
-   <h4>Sanjay urs K P</h4>
-  <h4>Jyothi B R</h4>
-  <h4>Karthik B S</h4>
-  <h4>Nayana</h4>
-  <h4>Mohan Kumar K</h4>
+  
+   <h4>Sanjay urs K P , Jyothi B R, Karthik B S, Nayana , Mohan Kumar K</h4>
+ 
   
 <h3>Licensed To : </h3>
 
