@@ -16,50 +16,51 @@
 
 </br>
 <h3>Layers in the network : </h3>
-***cnn.add(Conv2D(filters=128,kernel_size=5,activation='relu',input_shape=[64,64,3]))
 
-***cnn.add(MaxPool2D(pool_size=3,strides=1))
+* cnn.add(Conv2D(filters=128,kernel_size=5,activation='relu',input_shape=[64,64,3]))
 
-***cnn.add(Dropout(0.2))
+* cnn.add(MaxPool2D(pool_size=3,strides=1))
 
-***cnn.add(BatchNormalization())
+* cnn.add(Dropout(0.2))
 
-***cnn.add(Conv2D(filters=64,kernel_size=3,activation='relu'))
+* cnn.add(BatchNormalization())
 
-***cnn.add(MaxPool2D(pool_size=3,strides=1))
+* cnn.add(Conv2D(filters=64,kernel_size=3,activation='relu'))
 
-***cnn.add(Dropout(0.2))
+* cnn.add(MaxPool2D(pool_size=3,strides=1))
 
-***cnn.add(BatchNormalization())
+* cnn.add(Dropout(0.2))
 
-***cnn.add(Conv2D(filters=32,kernel_size=3,activation='relu'))
+* cnn.add(BatchNormalization())
 
-***cnn.add(MaxPool2D(pool_size=3,strides=1))
+* cnn.add(Conv2D(filters=32,kernel_size=3,activation='relu'))
 
-***cnn.add(Dropout(0.2))
+* cnn.add(MaxPool2D(pool_size=3,strides=1))
 
-***cnn.add(BatchNormalization())
+* cnn.add(Dropout(0.2))
 
-***cnn.add(Conv2D(filters=32,kernel_size=3,activation='relu'))
+* cnn.add(BatchNormalization())
 
-***cnn.add(MaxPool2D(pool_size=3,strides=1))
+* cnn.add(Conv2D(filters=32,kernel_size=3,activation='relu'))
 
-***cnn.add(Dropout(0.2))
+* cnn.add(MaxPool2D(pool_size=3,strides=1))
 
-***cnn.add(BatchNormalization())
+* cnn.add(Dropout(0.2))
 
-***cnn.add(Conv2D(filters=32,kernel_size=3,activation='relu'))
+* cnn.add(BatchNormalization())
 
-***cnn.add(MaxPool2D(pool_size=3,strides=1))
+* cnn.add(Conv2D(filters=32,kernel_size=3,activation='relu'))
 
-***cnn.add(Dropout(0.2))
+* cnn.add(MaxPool2D(pool_size=3,strides=1))
 
-***cnn.add(BatchNormalization())
+* cnn.add(Dropout(0.2))
+
+* cnn.add(BatchNormalization())
 
 
-***cnn.add(GlobalAveragePooling2D(data_format='channels_last'))
+* cnn.add(GlobalAveragePooling2D(data_format='channels_last'))
 
-***cnn.add(Dense(units=10,activation='softmax'))</p>
+* cnn.add(Dense(units=10,activation='softmax'))</p>
 
 
 </br>
