@@ -6,10 +6,9 @@
 
 <h3>Abstract: </h3>
 <p>The neural network is the most advanced method at the moment to train the system to do a task. Among them CNN (convolution neural network )  and its derivatives are the most used for training the system to identify and classify images and in computer vision.</p>
-
 </br>
 <h3>Network Used: </h3>
-<p> Convolution Neural Network (CNN)</p> (CNN)
+<p> Convolution Neural Network (CNN)</p>
 
 
 
