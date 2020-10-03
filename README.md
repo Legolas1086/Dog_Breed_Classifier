@@ -16,33 +16,50 @@
 
 </br>
 <h3>Layers in the network : </h3>
-<p>cnn.add(Conv2D(filters=128,kernel_size=5,activation='relu',input_shape=[64,64,3]))
-cnn.add(MaxPool2D(pool_size=3,strides=1))
-cnn.add(Dropout(0.2))
-cnn.add(BatchNormalization())
+***cnn.add(Conv2D(filters=128,kernel_size=5,activation='relu',input_shape=[64,64,3]))
 
-cnn.add(Conv2D(filters=64,kernel_size=3,activation='relu'))
-cnn.add(MaxPool2D(pool_size=3,strides=1))
-cnn.add(Dropout(0.2))
-cnn.add(BatchNormalization())
+***cnn.add(MaxPool2D(pool_size=3,strides=1))
 
-cnn.add(Conv2D(filters=32,kernel_size=3,activation='relu'))
-cnn.add(MaxPool2D(pool_size=3,strides=1))
-cnn.add(Dropout(0.2))
-cnn.add(BatchNormalization())
+***cnn.add(Dropout(0.2))
 
-cnn.add(Conv2D(filters=32,kernel_size=3,activation='relu'))
-cnn.add(MaxPool2D(pool_size=3,strides=1))
-cnn.add(Dropout(0.2))
-cnn.add(BatchNormalization())
+***cnn.add(BatchNormalization())
 
-cnn.add(Conv2D(filters=32,kernel_size=3,activation='relu'))
-cnn.add(MaxPool2D(pool_size=3,strides=1))
-cnn.add(Dropout(0.2))
-cnn.add(BatchNormalization())
+***cnn.add(Conv2D(filters=64,kernel_size=3,activation='relu'))
 
-cnn.add(GlobalAveragePooling2D(data_format='channels_last'))
-cnn.add(Dense(units=10,activation='softmax'))</p>
+***cnn.add(MaxPool2D(pool_size=3,strides=1))
+
+***cnn.add(Dropout(0.2))
+
+***cnn.add(BatchNormalization())
+
+***cnn.add(Conv2D(filters=32,kernel_size=3,activation='relu'))
+
+***cnn.add(MaxPool2D(pool_size=3,strides=1))
+
+***cnn.add(Dropout(0.2))
+
+***cnn.add(BatchNormalization())
+
+***cnn.add(Conv2D(filters=32,kernel_size=3,activation='relu'))
+
+***cnn.add(MaxPool2D(pool_size=3,strides=1))
+
+***cnn.add(Dropout(0.2))
+
+***cnn.add(BatchNormalization())
+
+***cnn.add(Conv2D(filters=32,kernel_size=3,activation='relu'))
+
+***cnn.add(MaxPool2D(pool_size=3,strides=1))
+
+***cnn.add(Dropout(0.2))
+
+***cnn.add(BatchNormalization())
+
+
+***cnn.add(GlobalAveragePooling2D(data_format='channels_last'))
+
+***cnn.add(Dense(units=10,activation='softmax'))</p>
 
 
 </br>
@@ -50,14 +67,10 @@ cnn.add(Dense(units=10,activation='softmax'))</p>
 <p>32%. Due to lack of computation power number of epochs had to be set to less, so the accuracy is low.</p>
 
 </br>
-<h3>Confusion Matrix : </h3>
-<p></p>
 
 
 </br>
-<h3>Dataset : </h3>
-<p></p>
-
+<h3>Dataset : Data set is taken from kaagle </h3>
 
 </br>
 <h3>Contributors : </h3>
